@@ -15,3 +15,6 @@ jobs:
 
                 - name: correr teste
                   run: npm teste
+
+                - name: simular deploy
+                  run: echo "Deploy para ambiente de staging realizado com sucesso"
